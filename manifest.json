@@ -1,0 +1,10 @@
+{
+  "name": "Website Chagnes Monitor Extension",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "author": "Artur Nowak",
+  "permissions": ["alarms"],
+  "background": {
+    "service_worker": "monitor.js"
+  }
+}
